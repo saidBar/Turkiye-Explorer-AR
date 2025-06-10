@@ -1,0 +1,5 @@
+C:/Users/saeed/Unity Projects/Turkiye Explorer AR/.utmp/RelWithDebInfo/5q6h3666/arm64-v8a/CMakeFiles/edit_cache.dir
+C:/Users/saeed/Unity Projects/Turkiye Explorer AR/.utmp/RelWithDebInfo/5q6h3666/arm64-v8a/CMakeFiles/rebuild_cache.dir
+C:/Users/saeed/Unity Projects/Turkiye Explorer AR/.utmp/RelWithDebInfo/5q6h3666/arm64-v8a/GameActivity/CMakeFiles/game.dir
+C:/Users/saeed/Unity Projects/Turkiye Explorer AR/.utmp/RelWithDebInfo/5q6h3666/arm64-v8a/GameActivity/CMakeFiles/edit_cache.dir
+C:/Users/saeed/Unity Projects/Turkiye Explorer AR/.utmp/RelWithDebInfo/5q6h3666/arm64-v8a/GameActivity/CMakeFiles/rebuild_cache.dir

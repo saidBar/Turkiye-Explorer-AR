@@ -12,5 +12,8 @@ EditorBuildSettings:
     path: Assets/Scenes/LandmarkScene.unity
     guid: e6a5dd0806aea834585d477d639f70f5
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 5d8a516075fc2ae45951d45877464531, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 7c9218da4bcdfdd4d86133ffa4667b22, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 795ad2dfb15d4a349887ac2f8633a72a, type: 2}
   m_UseUCBPForAssetBundles: 0

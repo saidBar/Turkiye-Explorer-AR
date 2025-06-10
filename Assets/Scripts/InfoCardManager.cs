@@ -6,6 +6,7 @@ public class InfoCardManager : MonoBehaviour
     public GameObject infoCardPanel; // Drag your InfoCardPanel here
     public TextMeshProUGUI landmarkNameText; // Drag your LandmarkNameText here
     public TextMeshProUGUI landmarkDescriptionText; // Drag your LandmarkDescriptionText here
+    public FadeManager fadeManager;
 
     void Start()
     {
@@ -13,6 +14,10 @@ public class InfoCardManager : MonoBehaviour
         if (infoCardPanel != null)
         {
             infoCardPanel.SetActive(false);
+        }
+        if (fadeManager == null) // NEW check
+        {
+            UnityEngine.Debug.LogError("Fade Manager not assigned to InfoCardManager script on " + gameObject.name);
         }
     }
 
@@ -41,6 +46,11 @@ public class InfoCardManager : MonoBehaviour
         {
             infoCardPanel.SetActive(false); // Make the panel invisible
             UnityEngine.Debug.Log("Info Card hidden!");
+        }
+        // --- NEW: Trigger the fade out and load WelcomeScene ---
+        if (fadeManager != null)
+        {
+            fadeManager.FadeOutAndLoadScene("WelcomeScreen"); // Pass the scene name to load
         }
     }
 }
