@@ -6,9 +6,9 @@ ModelImporter:
   externalObjects: {}
   materials:
     materialImportMode: 2
-    materialName: 0
-    materialSearch: 1
-    materialLocation: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -22,7 +22,7 @@ ModelImporter:
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
     importConstraints: 0
-    animationCompression: 1
+    animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
@@ -34,7 +34,7 @@ ModelImporter:
   meshes:
     lODScreenPercentages: []
     globalScale: 0.01
-    meshCompression: 0
+    meshCompression: 3
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
@@ -80,7 +80,537 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
+    skeleton:
+    - name: 3d-model(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Component4_009
+      parentName: 3d-model(Clone)
+      position: {x: -0.3895523, y: 0.3982188, z: 0.97059965}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component9_016
+      parentName: 3d-model(Clone)
+      position: {x: 0.12584528, y: 0.4966705, z: -0.69281596}
+      rotation: {x: -0.070652045, y: 0.7035683, z: 0.7035683, w: 0.070652045}
+      scale: {x: 0.30959994, y: 0.318888, z: 0.3096}
+    - name: Component9_015
+      parentName: 3d-model(Clone)
+      position: {x: 0.061413012, y: 0.4966705, z: -0.35589737}
+      rotation: {x: -0.070652045, y: 0.7035683, z: 0.7035683, w: 0.070652045}
+      scale: {x: 0.30959994, y: 0.318888, z: 0.3096}
+    - name: Component7_002
+      parentName: 3d-model(Clone)
+      position: {x: 0.05234137, y: 0.87502027, z: -0.7853139}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component9_014
+      parentName: 3d-model(Clone)
+      position: {x: 0.09286669, y: 0.4966705, z: -0.52037}
+      rotation: {x: -0.070652045, y: 0.7035683, z: 0.7035683, w: 0.070652045}
+      scale: {x: 0.30959994, y: 0.318888, z: 0.3096}
+    - name: Component8_009
+      parentName: 3d-model(Clone)
+      position: {x: 0.8504603, y: 0.3982188, z: -1.037472}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component8_008
+      parentName: 3d-model(Clone)
+      position: {x: 0.59628034, y: 0.3982188, z: -1.0890417}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component8_007
+      parentName: 3d-model(Clone)
+      position: {x: 1.8222054, y: 0.30700144, z: -0.58302027}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component8_006
+      parentName: 3d-model(Clone)
+      position: {x: 1.2840337, y: 0.38219935, z: -0.692208}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component8_005
+      parentName: 3d-model(Clone)
+      position: {x: 0.02644301, y: 0.3982188, z: -1.2046539}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component13_002
+      parentName: 3d-model(Clone)
+      position: {x: 0.8479827, y: 0.5034385, z: -0.7344932}
+      rotation: {x: 0.4506005, y: 0.54493964, z: 0.54493964, w: -0.4506005}
+      scale: {x: 0.2613157, y: 0.2537042, z: 0.253704}
+    - name: Component6_002
+      parentName: 3d-model(Clone)
+      position: {x: -1.1025639, y: 0.87502027, z: -1.0196284}
+      rotation: {x: -0.5449394, y: 0.45060083, z: 0.45060083, w: 0.5449394}
+      scale: {x: 1.0299996, y: 0.99999994, z: 1}
+    - name: Component13_001
+      parentName: 3d-model(Clone)
+      position: {x: 0.6600776, y: 0.60709053, z: -0.77261686}
+      rotation: {x: 0.45060092, y: 0.5449393, z: 0.5449393, w: -0.45060092}
+      scale: {x: 0.39593154, y: 0.3844, z: 0.3844}
+    - name: Component11_010
+      parentName: 3d-model(Clone)
+      position: {x: -1.1896327, y: 0.5246498, z: -0.5279122}
+      rotation: {x: -0.070651904, y: 0.7035683, z: 0.7035683, w: 0.070651904}
+      scale: {x: 0.18266374, y: 0.18814403, z: 0.182664}
+    - name: Component11_009
+      parentName: 3d-model(Clone)
+      position: {x: -1.3683532, y: 0.5246498, z: -0.5641722}
+      rotation: {x: -0.070651904, y: 0.7035683, z: 0.7035683, w: 0.070651904}
+      scale: {x: 0.18266374, y: 0.18814403, z: 0.182664}
+    - name: Component9_013
+      parentName: 3d-model(Clone)
+      position: {x: -1.2073689, y: 0.4966705, z: -0.963307}
+      rotation: {x: -0.070652045, y: 0.7035683, z: 0.7035683, w: 0.070652045}
+      scale: {x: 0.30959994, y: 0.318888, z: 0.3096}
+    - name: Component9_012
+      parentName: 3d-model(Clone)
+      position: {x: -1.2403474, y: 0.4966705, z: -0.79086107}
+      rotation: {x: -0.070652045, y: 0.7035683, z: 0.7035683, w: 0.070652045}
+      scale: {x: 0.30959994, y: 0.318888, z: 0.3096}
+    - name: Component9_011
+      parentName: 3d-model(Clone)
+      position: {x: -1.2718011, y: 0.4966705, z: -0.6263884}
+      rotation: {x: -0.070652045, y: 0.7035683, z: 0.7035683, w: 0.070652045}
+      scale: {x: 0.30959994, y: 0.318888, z: 0.3096}
+    - name: Component9_010
+      parentName: 3d-model(Clone)
+      position: {x: -1.01916, y: 0.4966705, z: -1.0748789}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component8_004
+      parentName: 3d-model(Clone)
+      position: {x: -0.9904035, y: 0.3982188, z: -1.4109582}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component8_003
+      parentName: 3d-model(Clone)
+      position: {x: -0.5196257, y: 0.3982188, z: -1.3154435}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component12_002
+      parentName: 3d-model(Clone)
+      position: {x: 0.30434766, y: 0.67696935, z: -0.6644101}
+      rotation: {x: -0.070652604, y: 0.7035682, z: 0.7035682, w: 0.070652604}
+      scale: {x: 0.23499733, y: 0.24204734, z: 0.234997}
+    - name: Component12_001
+      parentName: 3d-model(Clone)
+      position: {x: 0.24630174, y: 0.67696935, z: -0.36088595}
+      rotation: {x: -0.070652604, y: 0.7035682, z: 0.7035682, w: 0.070652604}
+      scale: {x: 0.23499733, y: 0.24204734, z: 0.234997}
+    - name: Component9_009
+      parentName: 3d-model(Clone)
+      position: {x: 0.15280285, y: 0.4966705, z: -0.83710355}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component9_008
+      parentName: 3d-model(Clone)
+      position: {x: 0.3202261, y: 0.4966705, z: -0.8031357}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component9_007
+      parentName: 3d-model(Clone)
+      position: {x: 0.48764947, y: 0.4966705, z: -0.7691677}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component11_008
+      parentName: 3d-model(Clone)
+      position: {x: 0.7448042, y: 0.6676724, z: -0.5707209}
+      rotation: {x: -0.33698103, y: 0.62164605, z: 0.62164605, w: 0.33698103}
+      scale: {x: 0.16744801, y: 0.16257092, z: 0.162571}
+    - name: Component11_007
+      parentName: 3d-model(Clone)
+      position: {x: 0.7702062, y: 0.6676724, z: -0.44023764}
+      rotation: {x: -0.5449394, y: 0.45060083, z: 0.45060083, w: 0.5449394}
+      scale: {x: 0.16744806, y: 0.16257098, z: 0.162571}
+    - name: Component11_006
+      parentName: 3d-model(Clone)
+      position: {x: 0.69858986, y: 0.6676724, z: -0.32947126}
+      rotation: {x: -0.675036, y: 0.21053837, z: 0.21053837, w: 0.675036}
+      scale: {x: 0.16257092, y: 0.167448, z: 0.162571}
+    - name: Component11_005
+      parentName: 3d-model(Clone)
+      position: {x: 0.57190704, y: 0.6676724, z: -0.30330724}
+      rotation: {x: -0.7035682, y: -0.07065235, z: -0.07065235, w: 0.7035682}
+      scale: {x: 0.16257097, y: 0.16744806, z: 0.162571}
+    - name: Component11_004
+      parentName: 3d-model(Clone)
+      position: {x: 0.46436676, y: 0.6676724, z: -0.37707207}
+      rotation: {x: -0.621646, y: -0.3369811, z: -0.3369811, w: 0.621646}
+      scale: {x: 0.16744801, y: 0.16257092, z: 0.162571}
+    - name: Component11_003
+      parentName: 3d-model(Clone)
+      position: {x: 0.43896478, y: 0.6676724, z: -0.50755537}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 0.16744806, y: 0.162571, z: 0.162571}
+    - name: Component11_002
+      parentName: 3d-model(Clone)
+      position: {x: 0.51058114, y: 0.6676724, z: -0.6183218}
+      rotation: {x: 0.21053831, y: 0.675036, z: 0.675036, w: -0.21053831}
+      scale: {x: 0.16257092, y: 0.167448, z: 0.162571}
+    - name: Component11_001
+      parentName: 3d-model(Clone)
+      position: {x: 0.63726395, y: 0.6676724, z: -0.6444858}
+      rotation: {x: -0.07065232, y: 0.7035683, z: 0.7035683, w: 0.07065232}
+      scale: {x: 0.16257097, y: 0.16744803, z: 0.162571}
+    - name: Component10_001
+      parentName: 3d-model(Clone)
+      position: {x: 0.6045855, y: 0.7855921, z: -0.47389644}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component9_006
+      parentName: 3d-model(Clone)
+      position: {x: -0.8517368, y: 0.4966705, z: -1.040911}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component9_005
+      parentName: 3d-model(Clone)
+      position: {x: -0.68431354, y: 0.4966705, z: -1.0069431}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component9_004
+      parentName: 3d-model(Clone)
+      position: {x: -0.5168903, y: 0.4966705, z: -0.9729752}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component9_003
+      parentName: 3d-model(Clone)
+      position: {x: -0.34946698, y: 0.4966705, z: -0.93900734}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component9_002
+      parentName: 3d-model(Clone)
+      position: {x: -0.1820437, y: 0.4966705, z: -0.90503937}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component9_001
+      parentName: 3d-model(Clone)
+      position: {x: -0.014620431, y: 0.4966705, z: -0.87107146}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component8_002
+      parentName: 3d-model(Clone)
+      position: {x: 1.1783801, y: 0.38219935, z: -0.13974178}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component4_008
+      parentName: 3d-model(Clone)
+      position: {x: -1.4063989, y: 0.3982188, z: 0.76429534}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component4_007
+      parentName: 3d-model(Clone)
+      position: {x: -0.935621, y: 0.3982188, z: 0.85980976}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component4_006
+      parentName: 3d-model(Clone)
+      position: {x: 0.18028498, y: 0.3982188, z: 1.0862119}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component4_005
+      parentName: 3d-model(Clone)
+      position: {x: 0.43446496, y: 0.3982188, z: 1.1377815}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component4_004
+      parentName: 3d-model(Clone)
+      position: {x: 1.5009456, y: 0.30700144, z: 1.0968581}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component4_003
+      parentName: 3d-model(Clone)
+      position: {x: 1.6065992, y: 0.30700144, z: 0.544392}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component8_001
+      parentName: 3d-model(Clone)
+      position: {x: 1.7165518, y: 0.30700144, z: -0.03055402}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component4_002
+      parentName: 3d-model(Clone)
+      position: {x: 0.9627738, y: 0.38219935, z: 0.9876705}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component3_017
+      parentName: 3d-model(Clone)
+      position: {x: -0.076141566, y: 0.4966705, z: 0.36337924}
+      rotation: {x: -0.7035683, y: -0.0706521, z: -0.0706521, w: 0.7035683}
+      scale: {x: 0.3095999, y: 0.31888795, z: 0.3096}
+    - name: Component3_016
+      parentName: 3d-model(Clone)
+      position: {x: -0.10912012, y: 0.4966705, z: 0.5358252}
+      rotation: {x: -0.7035683, y: -0.0706521, z: -0.0706521, w: 0.7035683}
+      scale: {x: 0.3095999, y: 0.31888795, z: 0.3096}
+    - name: Component3_015
+      parentName: 3d-model(Clone)
+      position: {x: -0.044687856, y: 0.4966705, z: 0.19890662}
+      rotation: {x: -0.7035683, y: -0.0706521, z: -0.0706521, w: 0.7035683}
+      scale: {x: 0.3095999, y: 0.31888795, z: 0.3096}
+    - name: Component_003
+      parentName: 3d-model(Clone)
+      position: {x: 0.5437275, y: 0.5034385, z: 0.85646826}
+      rotation: {x: 0.4506005, y: 0.54493964, z: 0.54493964, w: -0.4506005}
+      scale: {x: 0.2613157, y: 0.2537042, z: 0.253704}
+    - name: Component7_001
+      parentName: 3d-model(Clone)
+      position: {x: -1.3660954, y: 0.87502027, z: 0.35838678}
+      rotation: {x: -0.5449394, y: 0.45060083, z: 0.45060083, w: 0.5449394}
+      scale: {x: 1.0299996, y: 0.99999994, z: 1}
+    - name: Component6_001
+      parentName: 3d-model(Clone)
+      position: {x: -0.2111902, y: 0.87502027, z: 0.5927014}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component_002
+      parentName: 3d-model(Clone)
+      position: {x: 0.35582206, y: 0.60709053, z: 0.81834483}
+      rotation: {x: 0.45060092, y: 0.5449393, z: 0.5449393, w: -0.45060092}
+      scale: {x: 0.39593154, y: 0.3844, z: 0.3844}
+    - name: Component5_002
+      parentName: 3d-model(Clone)
+      position: {x: 0.066506766, y: 0.67696935, z: 0.5792672}
+      rotation: {x: -0.7035682, y: -0.07065266, z: -0.07065266, w: 0.7035682}
+      scale: {x: 0.23499733, y: 0.24204735, z: 0.234997}
+    - name: Component5_001
+      parentName: 3d-model(Clone)
+      position: {x: 0.124552704, y: 0.67696935, z: 0.27574304}
+      rotation: {x: -0.7035682, y: -0.07065266, z: -0.07065266, w: 0.7035682}
+      scale: {x: 0.23499733, y: 0.24204735, z: 0.234997}
+    - name: Component2_026
+      parentName: 3d-model(Clone)
+      position: {x: -1.2656133, y: 0.5246498, z: -0.13060793}
+      rotation: {x: -0.7035683, y: -0.07065193, z: -0.07065193, w: 0.7035683}
+      scale: {x: 0.18266375, y: 0.18814404, z: 0.182664}
+    - name: Component2_025
+      parentName: 3d-model(Clone)
+      position: {x: -1.4443338, y: 0.5246498, z: -0.16686794}
+      rotation: {x: -0.7035683, y: -0.07065193, z: -0.07065193, w: 0.7035683}
+      scale: {x: 0.18266375, y: 0.18814404, z: 0.182664}
+    - name: Component3_014
+      parentName: 3d-model(Clone)
+      position: {x: -1.4423342, y: 0.4966705, z: 0.2653342}
+      rotation: {x: -0.7035683, y: -0.0706521, z: -0.0706521, w: 0.7035683}
+      scale: {x: 0.3095999, y: 0.31888795, z: 0.3096}
+    - name: Component3_013
+      parentName: 3d-model(Clone)
+      position: {x: -1.4093558, y: 0.4966705, z: 0.092888206}
+      rotation: {x: -0.7035683, y: -0.0706521, z: -0.0706521, w: 0.7035683}
+      scale: {x: 0.3095999, y: 0.31888795, z: 0.3096}
+    - name: Component3_012
+      parentName: 3d-model(Clone)
+      position: {x: -1.3779019, y: 0.4966705, z: -0.07158442}
+      rotation: {x: -0.7035683, y: -0.0706521, z: -0.0706521, w: 0.7035683}
+      scale: {x: 0.3095999, y: 0.31888795, z: 0.3096}
+    - name: Component3_011
+      parentName: 3d-model(Clone)
+      position: {x: -1.309265, y: 0.4966705, z: 0.44208875}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component3_010
+      parentName: 3d-model(Clone)
+      position: {x: -1.1418418, y: 0.4966705, z: 0.4760566}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component3_009
+      parentName: 3d-model(Clone)
+      position: {x: -0.9744184, y: 0.4966705, z: 0.51002455}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component3_008
+      parentName: 3d-model(Clone)
+      position: {x: -0.80699515, y: 0.4966705, z: 0.5439924}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component3_007
+      parentName: 3d-model(Clone)
+      position: {x: -0.63957185, y: 0.4966705, z: 0.5779604}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component3_006
+      parentName: 3d-model(Clone)
+      position: {x: -0.47214854, y: 0.4966705, z: 0.6119282}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component3_005
+      parentName: 3d-model(Clone)
+      position: {x: -0.3047253, y: 0.4966705, z: 0.64589614}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component3_004
+      parentName: 3d-model(Clone)
+      position: {x: -0.13730203, y: 0.4966705, z: 0.67986405}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component3_003
+      parentName: 3d-model(Clone)
+      position: {x: 0.030121291, y: 0.4966705, z: 0.7138319}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component3_002
+      parentName: 3d-model(Clone)
+      position: {x: 0.19754454, y: 0.4966705, z: 0.7477999}
+      rotation: {x: 0.45060104, y: 0.54493916, z: 0.54493916, w: -0.45060104}
+      scale: {x: 0.3188879, y: 0.30959988, z: 0.3096}
+    - name: Component2_024
+      parentName: 3d-model(Clone)
+      position: {x: 0.5085564, y: 0.6676724, z: 0.6646263}
+      rotation: {x: -0.675036, y: 0.21053837, z: 0.21053837, w: 0.675036}
+      scale: {x: 0.16257092, y: 0.167448, z: 0.162571}
+    - name: Component2_023
+      parentName: 3d-model(Clone)
+      position: {x: 0.58010393, y: 0.6676724, z: 0.5538127}
+      rotation: {x: -0.5449394, y: 0.45060083, z: 0.45060083, w: 0.5449394}
+      scale: {x: 0.16744806, y: 0.16257098, z: 0.162571}
+    - name: Component2_022
+      parentName: 3d-model(Clone)
+      position: {x: 0.554621, y: 0.6676724, z: 0.4233462}
+      rotation: {x: -0.33698103, y: 0.62164605, z: 0.62164605, w: 0.33698103}
+      scale: {x: 0.16744801, y: 0.16257092, z: 0.162571}
+    - name: Component2_021
+      parentName: 3d-model(Clone)
+      position: {x: 0.44703487, y: 0.6676724, z: 0.3496523}
+      rotation: {x: -0.07065232, y: 0.7035683, z: 0.7035683, w: 0.07065232}
+      scale: {x: 0.16257097, y: 0.16744803, z: 0.162571}
+    - name: Component2_020
+      parentName: 3d-model(Clone)
+      position: {x: 0.3203683, y: 0.6676724, z: 0.3758998}
+      rotation: {x: 0.21053831, y: 0.675036, z: 0.675036, w: -0.21053831}
+      scale: {x: 0.16257092, y: 0.167448, z: 0.162571}
+    - name: Component2_019
+      parentName: 3d-model(Clone)
+      position: {x: 0.2488208, y: 0.6676724, z: 0.48671338}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 0.16744806, y: 0.162571, z: 0.162571}
+    - name: Component2_018
+      parentName: 3d-model(Clone)
+      position: {x: 0.27430385, y: 0.6676724, z: 0.61717993}
+      rotation: {x: -0.621646, y: -0.3369811, z: -0.3369811, w: 0.621646}
+      scale: {x: 0.16744801, y: 0.16257092, z: 0.162571}
+    - name: Component2_017
+      parentName: 3d-model(Clone)
+      position: {x: 0.38188988, y: 0.6676724, z: 0.69087386}
+      rotation: {x: -0.7035682, y: -0.07065235, z: -0.07065235, w: 0.7035682}
+      scale: {x: 0.16257097, y: 0.16744806, z: 0.162571}
+    - name: Component1_003
+      parentName: 3d-model(Clone)
+      position: {x: 0.41446236, y: 0.7855921, z: 0.520263}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component4_001
+      parentName: 3d-model(Clone)
+      position: {x: 1.0684274, y: 0.38219935, z: 0.43520418}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 1.0299996, y: 1, z: 1}
+    - name: Component3_001
+      parentName: 3d-model(Clone)
+      position: {x: -1.3169833, y: 0.59755176, z: -0.34739012}
+      rotation: {x: -0.7035683, y: -0.07065223, z: -0.07065223, w: 0.7035683}
+      scale: {x: 0.52316225, y: 0.53885704, z: 0.523162}
+    - name: Component2_016
+      parentName: 3d-model(Clone)
+      position: {x: 0.6267138, y: 0.69116455, z: 0.2029814}
+      rotation: {x: -0.675036, y: 0.21053834, z: 0.21053834, w: 0.675036}
+      scale: {x: 0.20247488, y: 0.20854925, z: 0.20247503}
+    - name: Component2_015
+      parentName: 3d-model(Clone)
+      position: {x: 0.715823, y: 0.69116455, z: 0.0649679}
+      rotation: {x: -0.54493946, y: 0.4506007, z: 0.4506007, w: 0.54493946}
+      scale: {x: 0.20854935, y: 0.20247497, z: 0.20247503}
+    - name: Component2_014
+      parentName: 3d-model(Clone)
+      position: {x: 0.6840851, y: 0.69116455, z: -0.097522505}
+      rotation: {x: -0.33698115, y: 0.621646, z: 0.621646, w: 0.33698115}
+      scale: {x: 0.20854925, y: 0.20247488, z: 0.20247503}
+    - name: Component2_013
+      parentName: 3d-model(Clone)
+      position: {x: 0.5500916, y: 0.69116455, z: -0.1893051}
+      rotation: {x: -0.07065244, y: 0.7035682, z: 0.7035682, w: 0.07065244}
+      scale: {x: 0.20247497, y: 0.2085494, z: 0.20247503}
+    - name: Component2_012
+      parentName: 3d-model(Clone)
+      position: {x: 0.39233392, y: 0.69116455, z: -0.15661494}
+      rotation: {x: 0.21053843, y: 0.675036, z: 0.675036, w: -0.21053843}
+      scale: {x: 0.20247488, y: 0.20854925, z: 0.20247503}
+    - name: Component2_011
+      parentName: 3d-model(Clone)
+      position: {x: 0.30322462, y: 0.69116455, z: -0.018601451}
+      rotation: {x: 0.45060077, y: 0.5449394, z: 0.5449394, w: -0.45060077}
+      scale: {x: 0.20854938, y: 0.20247497, z: 0.20247503}
+    - name: Component2_010
+      parentName: 3d-model(Clone)
+      position: {x: 0.3349626, y: 0.69116455, z: 0.14388895}
+      rotation: {x: -0.6216459, y: -0.33698127, z: -0.33698127, w: 0.6216459}
+      scale: {x: 0.20854925, y: 0.20247488, z: 0.20247503}
+    - name: Component2_009
+      parentName: 3d-model(Clone)
+      position: {x: 0.4689561, y: 0.69116455, z: 0.23567156}
+      rotation: {x: -0.7035682, y: -0.07065246, z: -0.07065246, w: 0.7035682}
+      scale: {x: 0.20247498, y: 0.20854937, z: 0.20247503}
+    - name: Component1_002
+      parentName: 3d-model(Clone)
+      position: {x: 0.5095238, y: 0.83802843, z: 0.023183225}
+      rotation: {x: 0.45060083, y: 0.5449394, z: 0.5449394, w: -0.45060083}
+      scale: {x: 1.2828202, y: 1.2454554, z: 1.245456}
+    - name: Component2_008
+      parentName: 3d-model(Clone)
+      position: {x: 0.8662624, y: 0.579023, z: 0.15502861}
+      rotation: {x: -0.6750361, y: 0.2105383, z: 0.2105383, w: 0.6750361}
+      scale: {x: 0.07717334, y: 0.079488605, z: 0.07717343}
+    - name: Component2_007
+      parentName: 3d-model(Clone)
+      position: {x: 0.9002265, y: 0.579023, z: 0.102424756}
+      rotation: {x: -0.54493934, y: 0.4506009, z: 0.4506009, w: 0.54493934}
+      scale: {x: 0.079488635, y: 0.07717337, z: 0.07717343}
+    - name: Component2_006
+      parentName: 3d-model(Clone)
+      position: {x: 0.8881296, y: 0.579023, z: 0.040491477}
+      rotation: {x: -0.33698112, y: 0.621646, z: 0.621646, w: 0.33698112}
+      scale: {x: 0.0794886, y: 0.07717333, z: 0.07717343}
+    - name: Component2_005
+      parentName: 3d-model(Clone)
+      position: {x: 0.8370577, y: 0.579023, z: 0.0055084648}
+      rotation: {x: -0.07065276, y: 0.7035682, z: 0.7035682, w: 0.07065276}
+      scale: {x: 0.07717338, y: 0.07948864, z: 0.07717343}
+    - name: Component2_004
+      parentName: 3d-model(Clone)
+      position: {x: 0.7769285, y: 0.579023, z: 0.017968267}
+      rotation: {x: 0.2105383, y: 0.6750361, z: 0.6750361, w: -0.2105383}
+      scale: {x: 0.077173345, y: 0.07948861, z: 0.07717343}
+    - name: Component2_003
+      parentName: 3d-model(Clone)
+      position: {x: 0.74296445, y: 0.579023, z: 0.07057212}
+      rotation: {x: 0.45060086, y: 0.5449393, z: 0.5449393, w: -0.45060086}
+      scale: {x: 0.07948864, y: 0.07717337, z: 0.07717343}
+    - name: Component2_002
+      parentName: 3d-model(Clone)
+      position: {x: 0.75506145, y: 0.579023, z: 0.1325054}
+      rotation: {x: -0.6216459, y: -0.3369812, z: -0.3369812, w: 0.6216459}
+      scale: {x: 0.07948859, y: 0.07717333, z: 0.07717343}
+    - name: Component2_001
+      parentName: 3d-model(Clone)
+      position: {x: 0.80613303, y: 0.579023, z: 0.16748841}
+      rotation: {x: -0.70356816, y: -0.070652805, z: -0.070652805, w: 0.70356816}
+      scale: {x: 0.077173375, y: 0.07948865, z: 0.07717343}
+    - name: Component1_001
+      parentName: 3d-model(Clone)
+      position: {x: 0.82159555, y: 0.63500017, z: 0.086498424}
+      rotation: {x: 0.45060092, y: 0.5449393, z: 0.5449393, w: -0.45060092}
+      scale: {x: 0.48894736, y: 0.47470564, z: 0.474706}
+    - name: Component_001
+      parentName: 3d-model(Clone)
+      position: {x: 0.08746012, y: 0.6203893, z: -0.06244755}
+      rotation: {x: 0.45060086, y: 0.54493934, z: 0.54493934, w: -0.45060086}
+      scale: {x: 0.6385997, y: 0.61999977, z: 0.62}
+    - name: skp4E0F_001
+      parentName: 3d-model(Clone)
+      position: {x: -0, y: 0.32524085, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 1, y: 1, z: 1}
     armTwist: 0.5
     foreArmTwist: 0.5
     upperLegTwist: 0.5
@@ -88,10 +618,10 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
-    globalScale: 0.000010000001
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
