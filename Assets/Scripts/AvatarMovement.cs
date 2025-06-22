@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class AvatarMovement : MonoBehaviour
 {
@@ -47,7 +47,7 @@ public class AvatarMovement : MonoBehaviour
                 if (infoCardManager != null)
                 {
                     // Replace with actual landmark data later
-                    infoCardManager.ShowInfoCard("Ancient Temple", "This ancient temple dates back to 500 BC. It was a center of worship and community gatherings.");
+                    infoCardManager.ShowInfoCard("Sheikh Zayed Grand Mosque", "It is one of the world's largest and most stunning mosques, built to embody Islamic messages of peace, tolerance, and diversity. Key features include its magnificent white marble, 82 domes, 1,000+ columns, 24-carat gold gilded chandeliers, and the world's largest hand-knotted carpet. It can accommodate over 40,000 worshippers and welcomes millions of visitors from all faiths.");
                 }
             }
             else
