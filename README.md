@@ -1,85 +1,103 @@
-# My AR Landmark Explorer App
+# AR Landmark Gezgini Uygulaması
 
-This repository contains the source code for the AR Landmark Explorer mobile application built with Unity.
+Bu depo, Unity ile geliştirilmiş olan AR Landmark Gezgini mobil uygulamasının kaynak kodunu içermektedir.
 
-## How to Get the Project Source Code
+## Projenin Kaynak Kodunu İndirme
 
-There are a few ways to get this project onto your computer. The recommended method depends on whether you plan to contribute changes back to the project.
+Bu projeyi bilgisayarınıza indirmenin birkaç yolu vardır. Önerilen yöntem, projeye katkıda bulunmayı (değişiklik yapıp geri göndermeyi) planlayıp planlamadığınıza bağlıdır.
 
-### Option 1: Clone with Git (Recommended for Contributors)
+### Seçenek 1: Git ile Klonlama (Katkıda Bulunacaklar İçin Önerilir)
 
-This method is best if you have Git installed and plan to make changes to the project yourself, and potentially push them back to this repository.
+Bu yöntem, Git yüklüysa ve projede değişiklikler yapmayı, potansiyel olarak bunları bu depoya geri göndermeyi planlıyorsanız en iyisidir.
 
-#### Prerequisites:
-* **Git Installed:** If you don't have Git, download it from [git-scm.com](https://git-scm.com/downloads).
-* **Unity Hub Installed:** Download Unity Hub from [unity.com](https://unity.com/download).
+#### Önkoşullar:
+* **Git Yüklü:** Git yüklü değilse, [git-scm.com](https://git-scm.com/downloads) adresinden indirin.
+* **Unity Hub Yüklü:** Unity Hub'ı [unity.com](https://unity.com/download) adresinden indirin.
 
-#### Steps:
+#### Adımlar:
 
-1.  **Open your Terminal or Git Bash** (on Windows) or **Command Line Prompt**.
-2.  **Navigate to the directory** where you want to store your Unity projects. For example:
+1.  **Terminal veya Git Bash**'i (Windows'ta) veya **Komut Satırı/Terminal**'i açın.
+2.  Unity projelerinizi depolamak istediğiniz **dizine gidin**. Örneğin:
     ```bash
-    cd Documents/UnityProjects
+    cd Belgeler/UnityProjeleri
     ```
-    (You can replace `Documents/UnityProjects` with any path you prefer.)
-3.  **Clone the repository:** Copy the HTTPS URL of this GitHub repository (you can find it by clicking the green `< > Code` button on the repository page). Then, run the following command, replacing the URL with the actual one:
+    (Dilediğiniz başka bir yolu `Belgeler/UnityProjeleri` yerine kullanabilirsiniz.)
+3.  **Depoyu klonlayın:** Bu GitHub deposunun HTTPS URL'sini kopyalayın (depo sayfasındaki yeşil `< > Code` düğmesine tıklayarak bulabilirsiniz). Ardından, URL'yi gerçek URL ile değiştirerek aşağıdaki komutu çalıştırın:
     ```bash
-    git clone [https://github.com/your-username/your-repo-name.git](https://github.com/your-username/your-repo-name.git)
+    git clone [https://github.com/kullanici-adiniz/depo-adiniz.git](https://github.com/kullanici-adiniz/depo-adiniz.git)
     ```
-    (Replace `https://github.com/your-username/your-repo-name.git` with the actual URL you copied).
-4.  **Wait for the download to complete.** Git will download all project files into a new folder named after the repository (e.g., `my-ar-landmark-explorer-app`).
+    (Lütfen `https://github.com/kullanici-adiniz/depo-adiniz.git` kısmını kopyaladığınız gerçek URL ile değiştirin).
+4.  **İndirmenin tamamlanmasını bekleyin.** Git, tüm proje dosyalarını deponuzun adıyla yeni bir klasöre (örn. `ar-landmark-gezgin-uygulamasi`) indirecektir.
 
-### Option 2: Download as a ZIP File (Quick Snapshot - Not for Collaboration)
+### Seçenek 2: GitHub Desktop ile Klonlama (Kullanıcı Dostu Arayüz)
 
-This is the simplest way to get the project files if you just want to view the code or test the app without using Git for version control. **This method is NOT recommended if you plan to make changes and contribute back to the repository.**
+Bu yöntem, görsel bir arayüzü tercih ediyorsanız ve GitHub Desktop yüklüysa daha kolaydır.
 
-#### Prerequisites:
-* **Unity Hub Installed:** Download Unity Hub from [unity.com](https://unity.com/download).
+#### Önkoşullar:
+* **GitHub Desktop Yüklü:** [desktop.github.com](https://desktop.github.com/) adresinden indirin.
+* **Unity Hub Yüklü:** Unity Hub'ı [unity.com](https://unity.com/download) adresinden indirin.
 
-#### Steps:
+#### Adımlar:
 
-1.  Go to the repository page on GitHub.com.
-2.  Click the green **`< > Code`** button.
-3.  Select **`Download ZIP`**.
-4.  Save the `.zip` file to your desired location on your computer.
-5.  **Extract (unzip) the downloaded file** to a new folder.
+1.  **GitHub Desktop'ı açın.**
+2.  `File` > `Clone Repository...` (Dosya > Depo Klonla...) yolunu izleyin.
+3.  **`URL`** sekmesini seçin.
+4.  **Depo URL'sini yapıştırın** (Git için kullanacağınız aynı HTTPS URL'si, örn. `https://github.com/kullanici-adiniz/depo-adiniz.git`).
+5.  Projeyi kaydetmek istediğiniz bilgisayarınızdaki **yerel bir yolu seçin** (örn. `C:\Kullanicilar\KullaniciAdiniz\Belgeler\UnityProjeleri`).
+6.  **`Clone`** (Klonla) düğmesine tıklayın.
+7.  **İndirmenin tamamlanmasını bekleyin.**
 
----
+### Seçenek 3: ZIP Dosyası Olarak İndirme (Hızlı Anlık Görüntü - Katkı İçin Değil)
 
-## How to Open the Project in Unity
+Bu, Git'i sürüm kontrolü için kurmadan sadece kodu görüntülemek veya uygulamayı test etmek isteyenler için en basit yöntemdir. **Bu yöntem, değişiklikler yapmayı ve depoya geri katkıda bulunmayı planlıyorsanız ÖNERİLMEZ.**
 
-Once you have the project files on your computer (using any of the options above):
+#### Önkoşullar:
+* **Unity Hub Yüklü:** Unity Hub'ı [unity.com](https://unity.com/download) adresinden indirin.
 
-1.  **Open Unity Hub.**
-2.  Click the **`Add Project`** button (or `Open` depending on your Unity Hub version).
-3.  **Navigate to the root folder of the downloaded/cloned project.** This is the folder that contains the `Assets`, `ProjectSettings`, and `Packages` folders.
-4.  **Select this root folder.**
-5.  Unity Hub will add the project to its list. Select it and choose the appropriate Unity Editor version (ideally the one used to create the project, or a compatible version) to open it.
+#### Adımlar:
 
----
-
-## Building and Running the App on an Android Device
-
-Once the project is open in Unity, you can build and run it on an Android device:
-
-#### Prerequisites:
-* An ARCore-supported Android device.
-* Developer Options and USB Debugging enabled on your Android device.
-* Android SDK & NDK installed via Unity Hub.
-
-#### Steps:
-
-1.  **Connect your Android device** to your computer via USB.
-2.  In Unity, go to `File` > `Build Settings...`.
-3.  Ensure `Android` is selected as the platform. If not, select it and click `Switch Platform`.
-4.  Confirm that `WelcomeScene` and `LandmarkScene` are checked under "Scenes In Build".
-5.  Click `Player Settings...` at the bottom left.
-    * Under `Android` tab > `Other Settings` > `Configuration`, ensure `Scripting Backend` is `IL2CPP` and `ARM64` is checked under `Target Architectures`.
-    * Under `Other Settings` > `Rendering`, ensure `Vulkan` is **NOT** in the `Graphics APIs` list if your device has an API Level lower than 29 (e.g., Android Pie 9). `OpenGLES3` should be present.
-6.  Close Player Settings.
-7.  Click `Build And Run` in the Build Settings window.
-8.  Unity will build the `.apk` and install it on your connected device.
+1.  GitHub.com'daki depo sayfasına gidin.
+2.  Yeşil **`< > Code`** düğmesine tıklayın.
+3.  **`Download ZIP`** (ZIP İndir) seçeneğini seçin.
+4.  `.zip` dosyasını bilgisayarınızda istediğiniz bir konuma kaydedin.
+5.  İndirilen dosyayı yeni bir klasöre **ayıklayın (açın)**.
 
 ---
 
-Enjoy exploring!
+## Projeyi Unity'de Açma
+
+Proje dosyalarını bilgisayarınıza edindikten sonra (yukarıdaki seçeneklerden herhangi birini kullanarak):
+
+1.  **Unity Hub'ı açın.**
+2.  **`Add Project`** (Proje Ekle) düğmesine (veya Unity Hub sürümünüze bağlı olarak `Open` - Aç) tıklayın.
+3.  İndirilen/klonlanan projenin **ana dizinine gidin.** Bu, `Assets`, `ProjectSettings` ve `Packages` klasörlerini içeren klasördür.
+4.  **Bu ana klasörü seçin.**
+5.  Unity Hub projeyi listesine ekleyecektir. Projeyi seçin ve açmak için uygun Unity Editor sürümünü (tercihen projenin oluşturulduğu sürüm veya uyumlu bir sürüm) seçin.
+
+---
+
+## Uygulamayı Bir Android Cihazda Derleme ve Çalıştırma
+
+Proje Unity'de açıldıktan sonra, bir Android cihazda derleyebilir ve çalıştırabilirsiniz:
+
+#### Önkoşullar:
+* ARCore destekli bir Android cihaz.
+* Android cihazınızda Geliştirici Seçenekleri ve USB Hata Ayıklama etkinleştirilmiş olmalı.
+* Unity Hub aracılığıyla Android SDK ve NDK yüklü olmalı.
+
+#### Adımlar:
+
+1.  Android cihazınızı USB aracılığıyla bilgisayarınıza **bağlayın.**
+2.  Unity'de, `File` > `Build Settings...` (Dosya > Derleme Ayarları...) yolunu izleyin.
+3.  Platform olarak `Android`'in seçili olduğundan emin olun. Seçili değilse, seçin ve sağ alttaki `Switch Platform` (Platform Değiştir) düğmesine tıklayın.
+4.  "Scenes In Build" (Derlemedeki Sahneler) kutusunda `WelcomeScene` ve `LandmarkScene`'in işaretli olduğundan emin olun.
+5.  Sol alttaki `Player Settings...` (Oynatıcı Ayarları...) düğmesine tıklayın.
+    * `Android` sekmesi > `Other Settings` (Diğer Ayarlar) > `Configuration` (Yapılandırma) altında, `Scripting Backend`'in `IL2CPP` olduğundan ve `Target Architectures` (Hedef Mimariler) altında `ARM64`'ün işaretli olduğundan emin olun.
+    * `Other Settings` (Diğer Ayarlar) > `Rendering` (Oluşturma) altında, cihazınızın API Seviyesi 29'dan düşükse (örn. Android Pie 9), `Graphics APIs` (Grafik API'leri) listesinde `Vulkan`'ın **OLMADIĞINDAN** emin olun. `OpenGLES3` mevcut olmalıdır.
+6.  Oynatıcı Ayarları penceresini kapatın.
+7.  Derleme Ayarları penceresinde `Build And Run` (Derle ve Çalıştır) düğmesine tıklayın.
+8.  Unity, `.apk` dosyasını derleyecek ve bağlı cihazınıza kuracaktır.
+
+---
+
+Keyifli keşifler!
