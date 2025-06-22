@@ -29,25 +29,8 @@ Bu yöntem, Git yüklüysa ve projede değişiklikler yapmayı, potansiyel olara
     (Lütfen `https://github.com/kullanici-adiniz/depo-adiniz.git` kısmını kopyaladığınız gerçek URL ile değiştirin).
 4.  **İndirmenin tamamlanmasını bekleyin.** Git, tüm proje dosyalarını deponuzun adıyla yeni bir klasöre (örn. `ar-landmark-gezgin-uygulamasi`) indirecektir.
 
-### Seçenek 2: GitHub Desktop ile Klonlama (Kullanıcı Dostu Arayüz)
 
-Bu yöntem, görsel bir arayüzü tercih ediyorsanız ve GitHub Desktop yüklüysa daha kolaydır.
-
-#### Önkoşullar:
-* **GitHub Desktop Yüklü:** [desktop.github.com](https://desktop.github.com/) adresinden indirin.
-* **Unity Hub Yüklü:** Unity Hub'ı [unity.com](https://unity.com/download) adresinden indirin.
-
-#### Adımlar:
-
-1.  **GitHub Desktop'ı açın.**
-2.  `File` > `Clone Repository...` (Dosya > Depo Klonla...) yolunu izleyin.
-3.  **`URL`** sekmesini seçin.
-4.  **Depo URL'sini yapıştırın** (Git için kullanacağınız aynı HTTPS URL'si, örn. `https://github.com/kullanici-adiniz/depo-adiniz.git`).
-5.  Projeyi kaydetmek istediğiniz bilgisayarınızdaki **yerel bir yolu seçin** (örn. `C:\Kullanicilar\KullaniciAdiniz\Belgeler\UnityProjeleri`).
-6.  **`Clone`** (Klonla) düğmesine tıklayın.
-7.  **İndirmenin tamamlanmasını bekleyin.**
-
-### Seçenek 3: ZIP Dosyası Olarak İndirme (Hızlı Anlık Görüntü - Katkı İçin Değil)
+### Seçenek 2: ZIP Dosyası Olarak İndirme (Hızlı Anlık Görüntü - Katkı İçin Değil)
 
 Bu, Git'i sürüm kontrolü için kurmadan sadece kodu görüntülemek veya uygulamayı test etmek isteyenler için en basit yöntemdir. **Bu yöntem, değişiklikler yapmayı ve depoya geri katkıda bulunmayı planlıyorsanız ÖNERİLMEZ.**
 
