@@ -2,6 +2,10 @@
 
 Bu depo, Unity ile geliştirilmiş olan AR Landmark Gezgini mobil uygulamasının kaynak kodunu içermektedir.
 
+## Links
+* **APK Linki :** https://drive.google.com/drive/folders/1mL9et52QBqdMMUbXEMDcvaWUEONxu2oK?usp=drive_link
+* **Site Linki:** https://worldexplorer-ar.vercel.app/
+
 ## Projenin Kaynak Kodunu İndirme
 
 Bu projeyi bilgisayarınıza indirmenin birkaç yolu vardır. Önerilen yöntem, projeye katkıda bulunmayı (değişiklik yapıp geri göndermeyi) planlayıp planlamadığınıza bağlıdır.
